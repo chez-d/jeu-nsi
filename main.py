@@ -1,6 +1,6 @@
 import pyxel
 
-pyxel.init(120, 240, fps=30)
+pyxel.init(120, 240, fps=30, capture_sec=0)
 pyxel.load('res.pyxres')
 
 def dessiner_chip(x, y, couleur, nombre):
